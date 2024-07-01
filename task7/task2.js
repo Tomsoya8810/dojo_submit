@@ -18,7 +18,7 @@
                 break;
             default:
                 product = undefined;
-                break 
+                break;
         }
         event.record.重複禁止項目_文字列.value = `${dateFns.format(event.record.日付.value, "yyyyMMdd")}-${product}-${event.record.管理番号.value}`;
     }
